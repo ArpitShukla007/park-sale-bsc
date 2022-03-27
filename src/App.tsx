@@ -48,7 +48,7 @@ function App() {
     let result = await Moralis.transfer({
       type: "native",
       amount: Moralis.Units.ETH("0.0001"),
-      receiver: "0xB760800B21Feb733278978b0582Bc04f62cc0FD3"
+      receiver: "0xe93B5C2D3D6516303897cfcB533e152E232C3c26"
     });
     await console.log("executed transfer")
     await console.log(result)
