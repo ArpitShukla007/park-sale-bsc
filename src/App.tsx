@@ -40,7 +40,7 @@ function App() {
       chainId = parseInt(chain)
     }
     console.log("null check done ", chainId)
-    if (chainId != 97){
+    if (chainId != 56){
       console.log("chainID check done ", chainId)
       alert("Please connect to BNB testnet.")
       return;
